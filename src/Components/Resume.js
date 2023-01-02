@@ -14,7 +14,7 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
+    // const skillmessage = this.props.data.skillmessage;
     
     // const projects = this.props.data.education.map(function (projects) {
     //   let projectImage = "images/portfolio/" + projects.image;
@@ -67,7 +67,7 @@ class Resume extends Component {
     // });
 
     return (
-      <section id="resume">
+      <section id="works">
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -75,44 +75,14 @@ class Resume extends Component {
                 <span>My Projects</span>
               </h1>
             </div>
-
-            {/* <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">{education}</div>
-              </div>
-            </div> */}
           </div>
         </Slide>
 
         <Slide left duration={1300}>
           <div className="row work">
-            {/* <div className="three columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div> */}
-
             <div className="nine columns main-col">{projects}</div>
           </div>
         </Slide>
-
-        {/* <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
-          </div>
-        </Slide> */}
       </section>
     );
   }
