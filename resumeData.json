@@ -25,21 +25,6 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
     "projects":[
       {
         "title":"Starside",
@@ -56,41 +41,16 @@
         "description":"Pawdy was my 2022 Capstone project, a web solution for pet owners providing free pet sitting services for UW students.",
         "image":"3.jpg",
         "url":"http://pawdy.herokuapp.com/"},
-        {
-          "title":"SauvOS",
-          "description":"An innovative mobile operating system prototype aiming to promote productivity.",
-          "image":"4.jpg",
-          "url":""}
-    ],
-    "skills":[
       {
-        "name":"Python",
-        "level":"60%"
-      },
+        "title":"SauvOS",
+        "description":"An innovative mobile operating system prototype aiming to promote productivity.",
+        "image":"5.png",
+        "url":"images/portfolio/SauvOS.pdf"},
       {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
-      }
+        "title":"Esports Infographic",
+        "description":"A collection of information and data about the influence of Esports. Made in 2019 with Adobe Illustrator",
+        "image":"4.png",
+        "url":"images/portfolio/esports-infographic.pdf"}
     ]
   },
   "portfolio":{

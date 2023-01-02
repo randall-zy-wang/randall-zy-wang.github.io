@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. works Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -227,51 +227,51 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. works Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#works {
    background: #fff;
    padding-top: 50px;
    /* padding-bottom: 72px; */
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#works a, #works a:visited  { color: #0762f9; }
+#works a:hover, #works a:focus { color: #313131; }
 
-#resume h1 {
+#works h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#works h1 span {
    border-bottom: 3px solid #000524;
    padding-bottom: 6px;
 }
-#resume h3 {
+#works h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#works .header-col { padding-top: 9px; }
+#works .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
 }
 
-#resume .info {
+#works .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#works .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#works .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -282,11 +282,11 @@ ul#nav li.current a { color: #fe6928; }
    border-bottom: 1px solid #E8E8E8;
 }
 
-#resume img {
+#works img {
    margin-bottom: 15px;
 }
 
-#resume img:hover {
+#works img:hover {
    color: #fe6928;
 }
 
