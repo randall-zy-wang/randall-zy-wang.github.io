@@ -14,31 +14,13 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    // const skillmessage = this.props.data.skillmessage;
-    
-    // const projects = this.props.data.education.map(function (projects) {
-    //   let projectImage = "images/portfolio/" + projects.image;
-
-    //   return (
-    //     <div key={projects.school}>
-    //       <img alt={projects.title} src={projectImage} ></img>
-    //       <h3>{projects.school}</h3>
-    //       <p className="info">
-    //         {projects.degree} <span>&bull;</span>
-    //         <em className="date">{projects.graduated}</em>
-    //       </p>
-    //       <p>{projects.description}</p>
-    //     </div>
-    //   );
-    // });
-
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
         <div key={projects.title}>
-          <div>
-            <a href={projects.url}><img alt={projects.title} src={projectImage}></img></a>
+          <div className="shadow">
+            <a href={projects.url}><img alt={projects.title} src={projectImage} ></img></a>
           </div>
           
           <div className="project-textbox">
@@ -52,19 +34,6 @@ class Resume extends Component {
         </div>
       );
     });
-
-    // const skills = this.props.data.skills.map((skills) => {
-    //   const backgroundColor = this.getRandomColor();
-    //   const className = "bar-expand " + skills.name.toLowerCase();
-    //   const width = skills.level;
-
-    //   return (
-    //     <li key={skills.name}>
-    //       <span style={{ width, backgroundColor }} className={className}></span>
-    //       <em>{skills.name}</em>
-    //     </li>
-    //   );
-    // });
 
     return (
       <section id="works">

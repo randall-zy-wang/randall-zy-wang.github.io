@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Zhengyang Wang",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description": "",
     "image":"profilepic.jpg",
-    "bio":"My name is Zhengyang Wang and I am a game designer. I graduated in June 2022 from University of Washington and I am currently pursuing a Master's degree. Thank you for dropping by! Please check out my portfolio below. Hope you enjoy and have a good day.",
+    "bio": "My name is Zhengyang Wang. Welcome to my portfolio. I design and build software products including games and web applications that solve information problems for individuals and communities around me. This site includes some selected samples of my past works. I am currently working as a game designer in China, and actively applying to Master's programs. ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "randallzywang@gmail.com",
     "phone": "US: +1 206 771 7235",
