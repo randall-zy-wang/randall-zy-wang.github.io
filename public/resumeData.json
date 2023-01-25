@@ -28,28 +28,28 @@
     "projects":[
       {
         "title":"Starside",
-        "description":"Starside is a fantasy action mobile game in an apocalyptic world. You will use the power bestowed by fate to save the future of the world in intertwined reincarnations.",
-        "image":"2.jfif",
+        "description":"Starside is a fantasy, action, role playing mobile game in an apocalyptic world. You will use the power bestowed by fate to save the future of the world in intertwined reincarnations.",
+        "image": ["2.jfif"],
         "url":"http://ss.0nut.com/"},
       {
         "title":"The Euphorigen Investigation",
         "description":"Explore the depths of misinformation with fun and collaborative games",
-        "image":"1.jpg",
+        "image":["1.jpg"],
         "url":"https://www.lokisloop.org/"},
       {
         "title":"Pawdy",
         "description":"Pawdy was my 2022 Capstone project, a web solution for pet owners providing free pet sitting services for UW students.",
-        "image":"3.jpg",
+        "image":["3.jpg"],
         "url":"http://pawdy.herokuapp.com/"},
       {
         "title":"SauvOS",
         "description":"An innovative mobile operating system prototype aiming to promote productivity.",
-        "image":"5.png",
+        "image":["5.png"],
         "url":"images/portfolio/SauvOS.pdf"},
       {
         "title":"Esports Infographic",
         "description":"A collection of information and data about the influence of Esports. Made in 2019 with Adobe Illustrator",
-        "image":"4.png",
+        "image":["4.png"],
         "url":"images/portfolio/esports-infographic.pdf"}
     ]
   },

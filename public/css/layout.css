@@ -207,20 +207,21 @@ ul#nav li.current a { color: #FF770F; }
    /* border-radius: 100%; */
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
+.download {
    width: 58.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
+.download .button {
    margin-top: 6px;
-   background: #444;
+   color: #FF770F;
+   background: #000026;
 }
-#about .download .button:hover {
+.download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+.download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -263,7 +264,7 @@ ul#nav li.current a { color: #FF770F; }
 
 #works .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #000026;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -295,6 +296,8 @@ ul#nav li.current a { color: #FF770F; }
 }
    
 .shadow img:hover{
+   color: #FF770F;
+   opacity: 80%;
    box-shadow:
    1px 1px #FF770F,
    2px 2px #FF770F,
@@ -306,6 +309,16 @@ ul#nav li.current a { color: #FF770F; }
    transform: translateX(-3px);
    transition: .5s ease;
 }
+
+/* .row {
+   display: flex;
+ }
+ 
+ .column {
+   flex: 33.33%;
+   padding: 5px;
+ } */
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
