@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #000026; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -36,7 +36,7 @@ header {
    
    text-align: center;
    overflow: hidden;
-}
+}color
 
 /* vertically center banner section */
 header:before {
@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #FF770F; }
 
 
 /* ------------------------------------------------------------------ */
@@ -182,7 +182,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #000026;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,20 +207,21 @@ ul#nav li.current a { color: #fe6928; }
    /* border-radius: 100%; */
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
+.download {
    width: 58.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
+.download .button {
    margin-top: 6px;
-   background: #444;
+   color: #FF770F;
+   background: #000026;
 }
-#about .download .button:hover {
+.download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+.download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -238,7 +239,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #works a, #works a:visited  { color: #0762f9; }
-#works a:hover, #works a:focus { color: #313131; }
+#works a:hover, #works a:focus { color: #000026; }
 
 #works h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -263,7 +264,7 @@ ul#nav li.current a { color: #fe6928; }
 
 #works .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #000026;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -287,8 +288,36 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #works img:hover {
-   color: #fe6928;
+   color: #FF770F;
 }
+
+.shadow img {
+   transition: .5s ease;
+}
+   
+.shadow img:hover{
+   color: #FF770F;
+   opacity: 80%;
+   box-shadow:
+   1px 1px #FF770F,
+   2px 2px #FF770F,
+   3px 3px #FF770F,
+   4px 4px #FF770F,
+   5px 5px #FF770F,
+   6px 6px #FF770F;
+   -webkit-transform: translateX(-3px);
+   transform: translateX(-3px);
+   transition: .5s ease;
+}
+
+/* .row {
+   display: flex;
+ }
+ 
+ .column {
+   flex: 33.33%;
+   padding: 5px;
+ } */
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -307,13 +336,13 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #333;
+  	background: #000026;
   	height: 42px;
   	border-radius: 0px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #000026;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -327,7 +356,7 @@ ul#nav li.current a { color: #fe6928; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #000026;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -567,7 +596,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #FF770F; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -942,13 +971,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: rgb(98, 98, 98);
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #FF770F; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1004,7 +1033,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #FF770F;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1017,7 +1046,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #fea764; }
 
 
 .social .btn:first-child{
