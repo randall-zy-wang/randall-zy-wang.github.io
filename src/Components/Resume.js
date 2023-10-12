@@ -92,9 +92,9 @@ class Resume extends Component {
                   <h3>The Euphorigen Investigation</h3>
                   <p className="info">
                     Developer | Researcher
-                    <span>&bull;</span> <em className="date">Research</em>
+                    {/* <span>&bull;</span> <em className="date">Research</em> */}
                   </p>
-                  <p>Explore the depths of misinformation with fun and collaborative games. Players learn to identify misinformation through a series of challenges and stop the spread of misinformation as part of the story.</p>
+                  <p>Explore the depths of misinformation with fun and collaborative games. Players learn to identify misinformation through a series of challenges and stop the spread of misinformation as part of the story. Research project by Center for an Informed Public at University of Washington.</p>
                   <p>Libraries and tools: React.js, Node.js, MongoDB, AWS</p>
                 </div>
               </div>
@@ -112,7 +112,7 @@ class Resume extends Component {
                     Lead Developer
                   </p>
                   
-                  <p>Pawdy is a web platform created for student pet owners to find affordable pet sitting services and connect with other pet owners to form an online community. Class of 2022 UW information school Capstone Project.</p>
+                  <p>Pawdy is a web platform created for student pet owners to find affordable pet sitting services and connect with other pet owners to form an online community. University of Washington class of 2022 information school Capstone Project.</p>
                   <p>Libraries and tools: Node.js, React.js, MongoDB, Heroku</p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ class Resume extends Component {
                   <p className="info">
                     UI/UX Designer
                   </p>
-                  <p>An innovative mobile operating system prototype designed to promote productivity for young adults. Prototyped 10 + applications with Figma in 2021.</p>
+                  <p>An innovative mobile operating system prototype designed to promote productivity for young adults. Me and my team prototyped 10+ applications with over 100 wireframes in Figma.</p>
 
                   {/* <div className="columns download">
                     <p>
@@ -156,7 +156,7 @@ class Resume extends Component {
                     Graphic Design
                     {/* <span>&bull;</span> <em className="date">Individual Project</em> */}
                   </p>
-                  <p>An infographic capturing the key information and data about the history, development, and influence of Esports. Made in 2019 with Adobe Illustrator.</p>
+                  <p>An infographic capturing the key information and data about the history, development, and influence of Esports. Made with Adobe Illustrator.</p>
                   {/* <p><a href="images/portfolio/esports-infographic.pdf">Download Full Version</a></p> */}
                 </div>
               </div>
