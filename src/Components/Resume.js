@@ -71,10 +71,11 @@ class Resume extends Component {
                 <div className="project-textbox">
                   <h3>Starside</h3>
                   <p className="info">
-                    Game Designer | Battle Design
+                    Technical Designer 
                     {/* <span>&bull;</span> <em className="date">Aug 2022 ~ Present</em> */}
                   </p>
                   <p>Starside is a fantasy, action, role playing mobile game. In an apocalyptic world, you will use the power bestowed by fate to save the future of the world in intertwined reincarnations.</p>
+                  <p>Libraries and tools: Unity</p>
                   <p><a href="https://www.bilibili.com/video/BV16f4y1q7do/?spm_id_from=333.337.search-card.all.click&vd_source=4b7824b762efbd95ceed7b0a98b521c4">Game Promotion Video</a></p>
                   <p><a href="https://www.bilibili.com/video/BV1yq4y1T7Dz/?spm_id_from=333.999.0.0&vd_source=4b7824b762efbd95ceed7b0a98b521c4">Gameplay demo</a></p>
                 </div>
@@ -90,10 +91,11 @@ class Resume extends Component {
                 <div className="project-textbox">
                   <h3>The Euphorigen Investigation</h3>
                   <p className="info">
-                    Co-Designer | User Experience Design 
+                    Developer | Researcher
                     <span>&bull;</span> <em className="date">Research</em>
                   </p>
                   <p>Explore the depths of misinformation with fun and collaborative games. Players learn to identify misinformation through a series of challenges and stop the spread of misinformation as part of the story.</p>
+                  <p>Libraries and tools: React.js, Node.js, MongoDB, AWS</p>
                 </div>
               </div>
 
@@ -107,7 +109,7 @@ class Resume extends Component {
                 <div className="project-textbox">
                   <h3>Pawdy</h3>
                   <p className="info">
-                    Lead Developer | Full-stack Development
+                    Lead Developer
                   </p>
                   
                   <p>Pawdy is a web platform created for student pet owners to find affordable pet sitting services and connect with other pet owners to form an online community. Class of 2022 UW information school Capstone Project.</p>
@@ -125,7 +127,7 @@ class Resume extends Component {
                 <div className="project-textbox">
                   <h3>SauvOS</h3>
                   <p className="info">
-                    Product Designer | UI/UX Design | Mobile Design
+                    UI/UX Designer
                   </p>
                   <p>An innovative mobile operating system prototype designed to promote productivity for young adults. Prototyped 10 + applications with Figma in 2021.</p>
 
@@ -152,7 +154,7 @@ class Resume extends Component {
                   <h3>Esports Infographic</h3>
                   <p className="info">
                     Graphic Design
-                    <span>&bull;</span> <em className="date">Individual Project</em>
+                    {/* <span>&bull;</span> <em className="date">Individual Project</em> */}
                   </p>
                   <p>An infographic capturing the key information and data about the history, development, and influence of Esports. Made in 2019 with Adobe Illustrator.</p>
                   {/* <p><a href="images/portfolio/esports-infographic.pdf">Download Full Version</a></p> */}
