@@ -1,12 +1,12 @@
 {
   "main": {
-    "name":"Zhengyang Wang",
+    "name":"Randall Wang",
     "description": "",
     "image":"profilepic.jpg",
     "bio": "Welcome to my portfolio website! My name is Randall Wang and I'm a software engineer with experience in game development and web development. On this site, you'll find samples of my past work showcasing my dedication to writing clean, maintainable code and my passion for creating exquisite digital experiences. Please feel free to look around and contact me if you're interested in learning more about any of my projects or working together with me. I'm always eager to collaborate and continue enhancing my skills as part of a dynamic team.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "randallzywang@gmail.com",
-    "phone": "US: +1 206 771 7235",
+    "phone": "+1 206 771 7235",
     "github":"https://github.com/randall-zy-wang",
     "project":"",
     "website": "",
