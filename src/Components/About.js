@@ -45,7 +45,7 @@ class About extends Component {
                     
                     <span>{phone}</span>
                     <br />
-                    <span>{"CN: +86 157 3699 6969"}</span>
+                    {/* <span>{"CN: +86 157 3699 6969"}</span> */}
                     <br />
                     <a href="mailto:randallzywang@gmail.com">{email}</a>
                     
