@@ -14,6 +14,15 @@ class About extends Component {
     // const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
     // const resumeDownload = this.props.data.resumedownload;
 
     return (
@@ -43,12 +52,12 @@ class About extends Component {
                       {city} {state}, {zip}
                     </span> */}
                     
-                    <span>{phone}</span>
-                    <br />
-                    {/* <span>{"CN: +86 157 3699 6969"}</span> */}
+                    <span>{phone}
                     <br />
                     <a href="mailto:randallzywang@gmail.com">{email}</a>
-                    
+                    <br />
+                    <ul className="social-links">{networks}</ul>
+                    </span>
                   </p>
                 </div>
                 {/* <div className="columns download">

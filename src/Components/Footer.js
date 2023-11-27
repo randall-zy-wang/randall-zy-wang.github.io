@@ -24,9 +24,6 @@ class Footer extends Component {
 
               <ul className="copyright">
                 <li>&copy; Zhengyang Wang </li>
-                <li>
-                  Credits to Styleshout
-                </li>
               </ul>
             </div>
           </Fade>
