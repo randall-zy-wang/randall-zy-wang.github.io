@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Zhengyang Wang </li>
+                <li>&copy; Randall Wang </li>
               </ul>
             </div>
           </Fade>

@@ -37,15 +37,17 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h1>Randall Wang</h1>
+              <h2>Student at University of Southern California</h2>
+              <h2>Master of Science in Computer Science - Game Development</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h1>Contact Me</h1>
                   <p className="address">
-                    <span>{name}</span>
-                    <br />
+                    {/* <span>{name}</span> */}
+                    {/* <br /> */}
                     {/* <span>
                       {street}
                       <br />
