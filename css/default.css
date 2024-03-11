@@ -171,7 +171,7 @@ h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader { }
 
-p { margin: 0 0 30px 0; }
+p { margin: 0 0 15px 0; }
 p img { margin: 0; }
 p.lead {
    font: 19px/36px 'opensans-light', sans-serif;
@@ -301,7 +301,7 @@ p a, p a:visited { line-height: inherit; }
 
 /*  4. List  --------------------------------------------------------- */
 
-ul, ol { margin-bottom: 24px; margin-top: 12px; }
+ul, ol { margin-top: 12px; }
 ul { list-style: none outside; }
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
