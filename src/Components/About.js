@@ -38,7 +38,7 @@ class About extends Component {
             </div>
             <div className="nine columns main-col">
               <h1>Randall Wang</h1>
-              <h2>Student at University of Southern California</h2>
+              <h2>University of Southern California</h2>
               <h2>Master of Science in Computer Science - Game Development</h2>
 
               <p>{bio}</p>

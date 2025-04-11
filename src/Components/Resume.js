@@ -60,6 +60,21 @@ class Resume extends Component {
               {/* {projects} */}
 
               <div className="portfolio-row">
+              {/* <a href="http://ss.0nut.com/"> */}
+                    <img alt="Void" src="images/portfolio/void.png"/>
+                  {/* </a> */}
+
+                <div className="project-textbox">
+                  <h3>[ ] Void</h3>
+                  <p className="info"> Lead Engineer <em className="date">USC Thesis Project</em> </p>
+                  
+                  <p>Void is a 3D, third-person open-world adventure that transports you into a surreal, monochromatic realm where every element is alive. With no text to guide you, the world itself tells the story through mysterious creatures and immersive landscapes, inviting endless exploration and discovery</p>
+                  <p>Technology: Unity 3D, FMOD</p>
+                  <p>Demo coming soon</p>
+                </div>
+              </div>
+
+              <div className="portfolio-row">
                 <iframe src="https://www.youtube.com/embed/LXkd9o2MLok?si=k76Fa2oKiIdsmBqr" title="Glitch Witch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
                 <div className="project-textbox">
@@ -68,23 +83,23 @@ class Resume extends Component {
                   
                   <p>In a tech-dead future, you play as Rosette, repairing broken tech by solving circuit puzzles to uncover the surprising power of 80s technology. She is thrilled about this discovery - until she faces accusations of witchcraft. Will friendship triumph, or force her to choose between power and acceptance? </p>
                   <p>Technology: Unreal Engine 5, C++</p>
-                  <p>Demo and Steam page coming soon ...</p>
+                  <p>https://store.steampowered.com/app/2942710/The_Glitch_Witch/</p>
                 </div>
               </div>
 
-              <div className="portfolio-row">
-                  <a href="https://jk15162428.itch.io/ministry-of-smile">
-                    <img alt="Ministry of Smile" src="images/portfolio/smile.png"></img>
-                  </a>
-                
-                <div className="project-textbox">
-                  <h3>Ministry of Smile</h3>
-                  <p className="info"> Developer <em className="date">2024 Global Game Jam (Make me Laugh)</em> </p>
-                  
-                  <p>In Ministry of Smile, you play as an employee of the Smile Department, tasked with fulfilling the requests of citizens to keep them happy. The level of effort you put into your job will affect the citizens' willingness to stay and your career progression. Keep up the good work, young one!</p>
-                  <p>Technology: Unity</p>
-                </div>
-              </div>
+              {/*<div className="portfolio-row">*/}
+              {/*    <a href="https://jk15162428.itch.io/ministry-of-smile">*/}
+              {/*      <img alt="Ministry of Smile" src="images/portfolio/smile.png"></img>*/}
+              {/*    </a>*/}
+              {/*  */}
+              {/*  <div className="project-textbox">*/}
+              {/*    <h3>Ministry of Smile</h3>*/}
+              {/*    <p className="info"> Developer <em className="date">2024 Global Game Jam (Make me Laugh)</em> </p>*/}
+              {/*    */}
+              {/*    <p>In Ministry of Smile, you play as an employee of the Smile Department, tasked with fulfilling the requests of citizens to keep them happy. The level of effort you put into your job will affect the citizens' willingness to stay and your career progression. Keep up the good work, young one!</p>*/}
+              {/*    <p>Technology: Unity</p>*/}
+              {/*  </div>*/}
+              {/*</div>*/}
               
               <div className="portfolio-row">
                 <iframe src="https://www.youtube.com/embed/QUNYl4jDiek?si=RZtCvErx6o-aeJNl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -133,11 +148,9 @@ class Resume extends Component {
               </div>
 
               <div className="portfolio-row">
-                <div className="shadow row columns">
                   <a href="http://pawdy.herokuapp.com/">
                     <img alt="Pawdy" src="images/portfolio/pawdy.png"></img>
                   </a>
-                </div>
                 
                 <div className="project-textbox">
                   <h3>Pawdy</h3>
@@ -151,7 +164,7 @@ class Resume extends Component {
                 </div>
               </div>
 
-              <div className="portfolio-row">
+              {/* <div className="portfolio-row">
                   <a href="images/portfolio/SauvOS.pdf">
                     <img alt="SauvOS" src="images/portfolio/5.png"></img>
                   </a>
@@ -163,7 +176,7 @@ class Resume extends Component {
                     <em className="date">Figma Prototype</em>
                   </p>
                   <p>An innovative mobile operating system prototype designed to promote productivity for young adults. Me and my team prototyped 10+ applications with over 100 wireframes in Figma.</p>
-                  <p>Technology: Figma</p>
+                  <p>Technology: Figma</p> */}
 
                   {/* <div className="columns download">
                     <p>
@@ -174,8 +187,8 @@ class Resume extends Component {
                   </div> */}
                   
                   {/* <p><a href="images/portfolio/SauvOS.pdf">Download Prototype Summary</a></p> */}
-                </div>
-              </div>
+                {/* </div>
+              </div> */}
 
               {/* <div className="portfolio-row">
                   <a href="images/portfolio/esports-infographic.pdf">
