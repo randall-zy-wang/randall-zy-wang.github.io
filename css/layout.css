@@ -275,7 +275,9 @@ ul#nav li.current a { color: #FF770F; }
 }
 
 #works img {
-   margin: auto;
+    margin: auto;
+    width: 900px;
+    height: auto;
 }
 
 iframe {
@@ -305,7 +307,7 @@ iframe {
 
 .nine >div {
    margin-bottom: 48px;
-   display: flexbox;
+   /*display: flexbox;*/
    border-bottom: 1px solid #ffffff;
 }
 
