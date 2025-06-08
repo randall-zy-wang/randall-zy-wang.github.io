@@ -194,19 +194,20 @@ ul#nav li.current a { color: #FF770F; }
 #about h1 {
    font: 26px/30px 'opensans-bold', sans-serif;
    color: #fff;
-   margin-bottom: 12px;
+   margin-bottom: 6px;
 }
 
 #about h2 {
    font: 16px/30px 'opensans', sans-serif;
-   color: #fff;
-   /* margin-bottom: 8px; */
+   color: #ccc;
+   margin-top: 1px;
 }
 
 #about p {
    margin-top: 10px;
    line-height: 30px;
-   color: #ccc;
+   color: #fff;
+   
 }
 #about .profile-pic {
    position: relative;
