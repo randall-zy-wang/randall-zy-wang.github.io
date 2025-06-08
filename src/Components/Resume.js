@@ -77,13 +77,16 @@ class Resume extends Component {
               <div className="portfolio-row">
                 <iframe src="https://www.youtube.com/embed/LXkd9o2MLok?si=k76Fa2oKiIdsmBqr" title="Glitch Witch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
+
                 <div className="project-textbox">
                   <h3>Glitch Witch</h3>
                   <p className="info"> Developer <em className="date">USC Advanced Game Project</em> </p>
                   
                   <p>In a tech-dead future, you play as Rosette, repairing broken tech by solving circuit puzzles to uncover the surprising power of 80s technology. She is thrilled about this discovery - until she faces accusations of witchcraft. Will friendship triumph, or force her to choose between power and acceptance? </p>
                   <p>Technology: Unreal Engine 5, C++</p>
-                  <p>https://store.steampowered.com/app/2942710/The_Glitch_Witch/</p>
+                  <a href="https://ch1psahoy.itch.io/the-glitch-witch">
+                    The Glitch Witch [DEMO]
+                  </a>
                 </div>
               </div>
 
