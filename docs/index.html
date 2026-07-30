@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Randall Wang, game developer and software engineer." />
+    <title>Randall Wang — Game Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .project-image { width: 100%; height: 100%; display: block; object-fit: cover; }
+      .toolkit-band { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; align-items: start; margin: -92px auto 110px; padding: 27px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+      .toolkit-band .eyebrow { margin: 4px 0 0; }
+      .toolkit-band .skill-list { display: flex; flex-wrap: wrap; gap: 9px; }
+      .toolkit-band .skill-list span { border: 1px solid var(--ink); border-radius: 99px; padding: 9px 14px; font: 11px var(--mono); }
+      @media (max-width: 740px) { .toolkit-band { grid-template-columns: 1fr; gap: 16px; margin: -42px auto 74px; } }
+    </style>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header container">
+      <a class="brand" href="#top" aria-label="Randall Wang home"><span class="brand-mark">王</span> Randall Wang</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="mailto:randallzywang@gmail.com">Let’s talk <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Available for new opportunities</p>
+          <!-- <h1>Game Developer &<br />Software Engineer</h1> -->
+           <h1>Randall Wang</h1>
+          <p class="intro">Game Developer & Software Engineer. <br />I make innovative games, code responsive systems, and create player-first experiences.</p>
+          
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View selected work <span>↓</span></a>
+            <a class="text-link" href="https://www.linkedin.com/in/randall-zy-wang/">LinkedIn <span>→</span></a>
+            <!-- <a class="text-link" href="https://github.com/randall-zy-wang">GitHub <span>→</span></a> -->
+
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract interactive game scene illustration">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid"></div>
+          <div class="game-window">
+            <div class="window-bar"><span></span><span></span><span></span><b>Randall Wang</b></div>
+            <div class="planet"></div><div class="ring ring-a"></div><div class="ring ring-b"></div>
+            <div class="ship">⌁</div><div class="star s1">+</div><div class="star s2">✦</div><div class="star s3">+</div>
+            <div class="hud">LVL 04 <i></i> 87%</div>
+          </div>
+          <div class="floating-tag tag-a">Game Developer</div>
+          <div class="floating-tag tag-b">Software Engineer</div>
+        </div>
+      </section>
+
+      <!-- <section class="proof container" aria-label="Professional highlights">
+        <div><strong>5+</strong><span>Years building games<br />and digital products</span></div>
+        <div><strong>12</strong><span>Shipped projects across<br />PC, mobile &amp; web</span></div>
+        <div><strong>∞</strong><span>Curiosity for systems,<br />play, and polish</span></div>
+      </section> -->
+
+
+      <section id="work" class="work container">
+        <div class="section-heading"><p class="eyebrow">01 / SELECTED WORK</p>
+          <!-- <h2>Designed to be played.<br />Engineered to last.</h2></div> -->
+        <div class="project-grid">
+          <article class="project project-featured">
+            <a href="https://muliphein.itch.io/void" class="project-visual">
+              <img class="project-image" src="image/void.png" alt="[ ] VOID" />
+              <!-- <span class="project-number">01</span> -->
+              <span class="view-chip">View Demo ↗</span>
+            </a>
+            <div class="project-copy">
+              <div>
+                <h3>[ ] VOID</h3>
+                <p>Void is a 3D, third-person adventure game in a surreal, monochromatic world filled with mysterious creatures and bizzare landscapes. With no text guidance, players are able to freely explore the world and uncover the secrets and stories within.</p>
+              </div>
+                <span>Unity · C# · Steam</span>
+            </div>
+          </article>
+          <article class="project">
+            <a href="https://www.youtube.com/watch?v=LXkd9o2MLok" class="project-visual" >
+              <img class="project-image" src="image/glitch witch.jpg" alt="Glitch Witch" />
+              <!-- <span class="project-number">02</span> -->
+              <span class="view-chip">View Demo ↗</span>
+            </a>
+            <div class="project-copy">
+              <div>
+                <h3>The Glitch Witch</h3>
+                <p>The Glitch Witch is a narrative, puzzle-solving game. In a tech-dead future, you play as Rosette, a teenage girl who repairs broken tech by solving circuit puzzles while battling the struggles of growing up and accusations of witchcraft.</p>
+              </div>
+              <span>Unreal · C++ · PC</span>
+            </div>
+          </article>
+          <article class="project">
+            <a href="https://www.bilibili.com/video/BV1yq4y1T7Dz/?spm_id_from=333.999.0.0&vd_source=4b7824b762efbd95ceed7b0a98b521c4" class="project-visual">
+              <img class="project-image" src="image/2.jfif" alt="Starside" />
+              <!-- <span class="project-number">03</span> -->
+              <span class="view-chip">View Demo ↗</span>
+            </a>
+            <div class="project-copy">
+              <div>
+                <h3>Starside</h3>
+                <p>Starside is a 2D action, role-playing mobile game. It was released in China in 2022 and gained over 500,000 downloads.</p>
+              </div>
+              <span>Unity · C# · Mobile</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="experience container">
+        <div class="section-heading"><p class="eyebrow">02 / EXPERIENCE</p>
+          <!-- <h2>Building with great teams.</h2> -->
+        </div>
+        <div class="timeline">
+          <article><p>2025 — 2026</p><div>
+            <h3>Game Developer 
+              <!-- <span>· Future State University Inc.</span> -->
+            </h3>
+            <p>Future State University Inc.</p>
+          </div>
+          <!-- <a href="#contact">↗</a> -->
+        </article>
+          <article><p>2023 — 2025</p><div>
+            <h3>M.S. in Computer Science 
+              <!-- <span>· University of Southern California</span> -->
+            </h3>
+            <p>University of Southern California</p>
+          </div>
+          <!-- <a href="#contact">↗</a> -->
+        </article>
+          <article><p>2018 — 2022</p><div>
+            <h3>B.S. in Informatics 
+              <!-- <span>· University of Washington</span> -->
+            </h3>
+            <p>University of Washington</p>
+            </div>
+            <!-- <a href="#contact">↗</a> -->
+          </article>
+        </div>
+      </section>
+
+      <section class="toolkit-band container" aria-label="Toolkit">
+        <h2>TOOLKIT</h2>
+        <div class="skill-list"><span>Unity</span><span>Unreal Engine</span><span>C#</span><span>C++</span><span>JavaScript</span><span>Java</span><span>Git</span><span>MongoDB</span></div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <p class="eyebrow">03 / GET IN TOUCH</p>
+        <h2>Let’s make something<br /><em>worth playing.</em></h2>
+        <a class="button button-light" href="mailto:randallzywang@gmail.com">randallzywang@gmail.com <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer class="container"><span>© 2025 Randall Wang</span><div><a href="#top">Back to top ↑</a>
+      <!-- <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a> -->
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
